@@ -436,36 +436,22 @@ body{
 #criticalDieTable{
     position:absolute;
     top: 227px;
-    left: 255px;
+    left: 280px;
     font-size: 0.85em;
 }
 
-/*
-#deedDie{
-    position:absolute;
-    top: 370px;
-    left: 270px;
-    font-size: 0.9em;
-}
-*/
 #initiative{
     position:absolute;
     top: 227px;
-    left: 380px;
+    left: 420px;
     font-size: 0.9em;
 }
 
-#threatRange{
-    position:absolute;
-    top: 227px;
-    left: 580px;
-    font-size: 0.9em;
-}
 
 #attackBonus{
     position:absolute;
     top: 227px;
-    left: 440px;
+    left: 500px;
     font-size: 0.9em;
 }
 

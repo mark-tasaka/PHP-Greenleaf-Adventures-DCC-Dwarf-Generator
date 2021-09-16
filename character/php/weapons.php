@@ -57,7 +57,11 @@ function getRandomWeapons($luckyWeaponNumber)
     for($j = 0; $j < $numberOfWeapons; ++$j)
     {
         $weapon = $weaponsArray[$j];
-        array_push($weaponsHas, $weapon);
+
+        if($weapon !== $luckyWeapon)
+        {
+            array_push($weaponsHas, $weapon);
+        }
     }
 
     return $weaponsHas;

@@ -200,12 +200,11 @@
        $totalAcCheckPen = $armourCheckPen + $shieldCheckPen;
        $speedPenality = $armourSpeedPen;
 
-       $speed = 30 - $armourSpeedPen;
+     //  $speed = 20 - $armourSpeedPen;
 
 
        $criticalDie = criticalDie($level);
 
-      // $threat = threatRange($level);
 
        $actionDice = actionDice($level);
 
@@ -240,7 +239,6 @@
        $title = title($level, $alignment);
 
        $initiative = getInit($agilityMod, $luckMod, $luckySign[0]);
-       $initiative += $level; 
 
 
        //Hit Points

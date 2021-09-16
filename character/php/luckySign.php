@@ -57,7 +57,7 @@ function getBirthAugur()
 function getSpeed($luckMod, $luckySign)
 {
         $speedBonus = (5 * $luckMod);
-        $baseSpeed = 30;
+        $baseSpeed = 20;
 
         if($luckySign == 29)
         {
